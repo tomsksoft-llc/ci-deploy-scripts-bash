@@ -1,0 +1,5 @@
+*
+!.gitignore
+!build-inst.sh
+!LICENSE
+!README.md
