@@ -1,5 +1,6 @@
 *
 !.gitignore
 !build-inst.sh
+!deploy.sh
 !LICENSE
 !README.md
