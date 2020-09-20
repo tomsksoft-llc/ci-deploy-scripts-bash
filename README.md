@@ -42,13 +42,13 @@ The same for `SITE_ROOT_SYMLINK_STATE="lrwxrwxrwx${OWNER}mygroupname"`.
 
 Step 3: prepare environment for deploy on remote servers
 
-`
+```
 $ mkdir myproject
 $ chmod 755 myproject/
 $ mkdir myproject/revs
 $ chmod 755 myproject/revs/
 $ ln -s foo myproject/site
-`
+```
 
 Please, do it from the user = OWNER, and group from previous step.
 
