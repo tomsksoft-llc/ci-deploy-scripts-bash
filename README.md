@@ -81,3 +81,8 @@ Step 5: launch to prod
 Just set `/home/myuser/myproject/site` as document root for your web server.
 
 To see all possibilities of the deploy script just start it without arguments.
+
+<b>Resolve external dependences of your project</b>
+
+Lookup for function `deploy_project_environment()` and add the post handlers to link the external files/directories into your deployed version of the project.
+See examples in comments within the function body.
