@@ -329,7 +329,7 @@ fi
 
 
 # ------------------------------------------------------
-# Restore previouse version of site if exist aproproate backup
+# Restore previouse version of site if aproproate backup exist
 #
 #
 # $1 - directory where we need resotre
@@ -403,7 +403,7 @@ return 0
 #------------------------------------------------------
 # Create DOCROOT_SYMLINK and some backups link
 #
-# $1 - directory where all are placed
+# $1 - base directory where all are placed
 # $2 - new source for link $3 within base dir
 # $3 - link within base dir
 #
